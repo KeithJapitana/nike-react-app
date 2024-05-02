@@ -1,0 +1,79 @@
+html {
+  scroll-behavior: smooth !important;
+}
+
+.ctheadermenu ul.nav-menu > li.nav-menu-item:last-child a {
+  background-color: #788d39 !important;
+  color: #fff !important;
+  border-radius: 100px;
+  padding: 13px 42px !important;
+  margin-left: 15px;
+  transisition: 0.25s;
+}
+
+.ctheadermenu ul.nav-menu > li.nav-menu-item:last-child a:hover {
+  transform: scale(1.05) !important;
+  background-color: #f3b817 !important;
+}
+
+.herocard {
+  transition: 0.25s;
+}
+
+.herocard:hover {
+  transform: scale(1.05);
+}
+
+.herocard2 {
+  transition: 0.25s;
+}
+
+.herocard2:hover {
+  transform: scale(1.09);
+}
+
+.middlecard {
+  transform: scale(1.07);
+}
+
+.wow2 {
+  transition: 0.25s;
+}
+
+.wow2:hover {
+  transform: scale(1.05) !important;
+  background-color: #fff !important;
+  color: #000;
+}
+
+.animatezoom {
+  transition: 0.5s;
+}
+
+.animatezoom:hover {
+  transform: scale(1.1) !important;
+  background-color: #fff !important;
+  color: #000;
+}
+
+.middlecard {
+  transform: scale(1.07);
+}
+
+.middlebxsidebd::before,
+.middlebxsidebd::after {
+  content: '';
+  position: absolute;
+  width: 1px;
+  height: 150px;
+  background-color: rgba(120, 141, 57, 0.5);
+  top: 50px;
+}
+
+.middlebxsidebd::before {
+  left: 0;
+}
+
+.middlebxsidebd::after {
+  right: 0;
+}
